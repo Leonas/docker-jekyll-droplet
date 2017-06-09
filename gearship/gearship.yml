@@ -1,11 +1,11 @@
 ---
 # variables here will be compiled to individual files in compiled/attributes.
 attributes:
-  ssh_target: user@target:port
-  docker_username: docker_user
-  docker_password: docker_password
-  app_name: app_name
-  app_repo: username/repository
+  ssh_target: root@droplet_ip:22
+  docker_username: private
+  docker_password: private
+  app_name: docker-jekyll-droplet
+  app_repo: leonas/docker-jekyll-droplet
   app_port_map: "4000:4000"
   
 # Remote actions here will be downloaded to compiled/actions.
