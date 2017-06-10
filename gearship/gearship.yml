@@ -1,12 +1,11 @@
----
 # variables here will be compiled to individual files in compiled/attributes.
 attributes:
-  ssh_target: root@droplet_ip:22
+  ssh_target: droplet_ip
   docker_username: private
   docker_password: private
   app_name: docker-jekyll-droplet
   app_repo: leonas/docker-jekyll-droplet
-  app_port_map: "4000:4000"
+  app_port_map: 80:4000
   
 # Remote actions here will be downloaded to compiled/actions.
 actions:
@@ -23,3 +22,5 @@ preferences:
 
   # Use variables like <%= @attributes.environment %> in actions, roles, files and install.sh.
   eval_erb: true
+
+# For security concerns you may want to keep this file outside of source control but should be okay if your project repos private to you.
