@@ -23,4 +23,4 @@ preferences:
   # Use variables like <%= @attributes.environment %> in actions, roles, files and install.sh.
   eval_erb: true
 
-# For security concerns you may want to keep this file outside of source control but should be okay if your project repos private to you.
+# For security concerns, you may want to keep this file outside of source control, but you should be okay if your project repos are private to you.
